@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>ParsedAnimeHttpSource</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>extensions-lib</span>
+            </a>
+    </div>
+    <div>
+14    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="extensions-lib::eu.kanade.tachiyomi.animesource.online/ParsedAnimeHttpSource///PointingToDeclaration//-1887420133">
+  <div class="breadcrumbs"><a href="../../../index.html">extensions-lib</a><span class="delimiter">/</span><a href="../index.html">eu.kanade.tachiyomi.animesource.online</a><span class="delimiter">/</span><span class="current">ParsedAnimeHttpSource</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Parsed</span><wbr></wbr><span>Anime</span><wbr></wbr><span>Http</span><wbr></wbr><span><span>Source</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword">class </span><a href="index.html">ParsedAnimeHttpSource</a> : <a href="../-anime-http-source/index.html">AnimeHttpSource</a></div><p class="paragraph">A simple implementation for sources from a website using Jsoup, an HTML parser.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Constructors">Constructors</button><button class="section-tab" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button></div>
+    <div class="tabs-section-body">
+      <h2 class="tabbedcontent">Constructors</h2>
+      <div class="table" data-togglable="Constructors"><a data-name="-700577166%2FConstructors%2F-1887420133" anchor-label="ParsedAnimeHttpSource" id="-700577166%2FConstructors%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue TabbedContent">
+            <div class=""><span class="inline-flex">
+                <div><a href="-parsed-anime-http-source.html"><span>Parsed</span><wbr></wbr><span>Anime</span><wbr></wbr><span>Http</span><wbr></wbr><span><span>Source</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-700577166%2FConstructors%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="-parsed-anime-http-source.html"><span class="token function">ParsedAnimeHttpSource</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="2038761949%2FFunctions%2F-1887420133" anchor-label="animeDetailsParse" id="2038761949%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="anime-details-parse.html"><span>anime</span><wbr></wbr><span>Details</span><wbr></wbr><span><span>Parse</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2038761949%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="anime-details-parse.html"><span class="token function">animeDetailsParse</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">response<span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-response/index.html">Response</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></div><div class="brief "><p class="paragraph">Parses the response from the site and returns the details of a anime.</p></div><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="anime-details-parse.html"><span class="token function">animeDetailsParse</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">document<span class="token operator">: </span><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Document.html">Document</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></div><div class="brief "><p class="paragraph">Returns the details of the anime from the given <a href="anime-details-parse.html">document</a>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1961063786%2FFunctions%2F-1887420133" anchor-label="animeDetailsRequest" id="-1961063786%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/anime-details-request.html"><span>anime</span><wbr></wbr><span>Details</span><wbr></wbr><span><span>Request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1961063786%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-http-source/anime-details-request.html"><span class="token function">animeDetailsRequest</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">anime<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-request/index.html">Request</a></div><div class="brief "><p class="paragraph">Returns the request for the details of a anime. Override only if it's needed to change the url, send different headers or request method like POST.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1843982225%2FFunctions%2F-1887420133" anchor-label="episodeFromElement" id="-1843982225%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="episode-from-element.html"><span>episode</span><wbr></wbr><span>From</span><wbr></wbr><span><span>Element</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1843982225%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="episode-from-element.html"><span class="token function">episodeFromElement</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">element<span class="token operator">: </span><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html">Element</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-episode/index.html">SEpisode</a></div><div class="brief "><p class="paragraph">Returns a episode from the given element.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1824000040%2FFunctions%2F-1887420133" anchor-label="episodeListParse" id="1824000040%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="episode-list-parse.html"><span>episode</span><wbr></wbr><span>List</span><wbr></wbr><span><span>Parse</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1824000040%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="episode-list-parse.html"><span class="token function">episodeListParse</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">response<span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-response/index.html">Response</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-episode/index.html">SEpisode</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Parses the response from the site and returns a list of episodes.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1124057587%2FFunctions%2F-1887420133" anchor-label="episodeListRequest" id="-1124057587%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/episode-list-request.html"><span>episode</span><wbr></wbr><span>List</span><wbr></wbr><span><span>Request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1124057587%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-http-source/episode-list-request.html"><span class="token function">episodeListRequest</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">anime<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-request/index.html">Request</a></div><div class="brief "><p class="paragraph">Returns the request for updating the episode list. Override only if it's needed to override the url, send different headers or request method like POST.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1520475360%2FFunctions%2F-1887420133" anchor-label="episodeListSelector" id="-1520475360%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="episode-list-selector.html"><span>episode</span><wbr></wbr><span>List</span><wbr></wbr><span><span>Selector</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1520475360%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="episode-list-selector.html"><span class="token function">episodeListSelector</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Returns the Jsoup selector that returns a list of <a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html">Element</a> corresponding to each episode.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1730323985%2FFunctions%2F-1887420133" anchor-label="fetchAnimeDetails" id="-1730323985%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/fetch-anime-details.html"><span>fetch</span><wbr></wbr><span>Anime</span><wbr></wbr><span><span>Details</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1730323985%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-anime-http-source/fetch-anime-details.html"><span class="token function">fetchAnimeDetails</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">anime<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an observable with the updated details for a anime. Normally it's not needed to override this method.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1112627676%2FFunctions%2F-1887420133" anchor-label="fetchEpisodeList" id="-1112627676%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/fetch-episode-list.html"><span>fetch</span><wbr></wbr><span>Episode</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1112627676%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-anime-http-source/fetch-episode-list.html"><span class="token function">fetchEpisodeList</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">anime<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-episode/index.html">SEpisode</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an observable with the updated episode list for a anime. Normally it's not needed to override this method.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1107834968%2FFunctions%2F-1887420133" anchor-label="fetchLatestUpdates" id="-1107834968%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/fetch-latest-updates.html"><span>fetch</span><wbr></wbr><span>Latest</span><wbr></wbr><span><span>Updates</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1107834968%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-anime-http-source/fetch-latest-updates.html"><span class="token function">fetchLatestUpdates</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">page<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-animes-page/index.html">AnimesPage</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an observable containing a page with a list of latest anime updates.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="913117040%2FFunctions%2F-1887420133" anchor-label="fetchPopularAnime" id="913117040%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/fetch-popular-anime.html"><span>fetch</span><wbr></wbr><span>Popular</span><wbr></wbr><span><span>Anime</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="913117040%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-anime-http-source/fetch-popular-anime.html"><span class="token function">fetchPopularAnime</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">page<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-animes-page/index.html">AnimesPage</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an observable containing a page with a list of anime. Normally it's not needed to override this method.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1130580620%2FFunctions%2F-1887420133" anchor-label="fetchSearchAnime" id="1130580620%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/fetch-search-anime.html"><span>fetch</span><wbr></wbr><span>Search</span><wbr></wbr><span><span>Anime</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1130580620%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-anime-http-source/fetch-search-anime.html"><span class="token function">fetchSearchAnime</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">page<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">query<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">filters<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-anime-filter-list/index.html">AnimeFilterList</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-animes-page/index.html">AnimesPage</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an observable containing a page with a list of anime. Normally it's not needed to override this method, but can be useful to change the usual workflow and use functions with different signatures from <a href="../-anime-http-source/search-anime-request.html">searchAnimeRequest</a> or <a href="../-anime-http-source/search-anime-parse.html">searchAnimeParse</a>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="682754173%2FFunctions%2F-1887420133" anchor-label="fetchVideoList" id="682754173%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/fetch-video-list.html"><span>fetch</span><wbr></wbr><span>Video</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="682754173%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-anime-http-source/fetch-video-list.html"><span class="token function">fetchVideoList</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">episode<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-episode/index.html">SEpisode</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-video/index.html">Video</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an observable with the video list for an episode. Normally it's not needed to override this method.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="393831261%2FFunctions%2F-1887420133" anchor-label="fetchVideoUrl" id="393831261%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/fetch-video-url.html"><span>fetch</span><wbr></wbr><span>Video</span><wbr></wbr><span><span>Url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="393831261%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-http-source/fetch-video-url.html"><span class="token function">fetchVideoUrl</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">video<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-video/index.html">Video</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">&gt;</span></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2108333126%2FFunctions%2F-1887420133" anchor-label="getAnimeUrl" id="2108333126%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/get-anime-url.html"><span>get</span><wbr></wbr><span>Anime</span><wbr></wbr><span><span>Url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2108333126%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-http-source/get-anime-url.html"><span class="token function">getAnimeUrl</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">anime<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Returns the url of the provided anime. Useful to fix &quot;open in webview&quot; without overriding <a href="../-anime-http-source/fetch-anime-details.html">fetchAnimeDetails</a>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1300145050%2FFunctions%2F-1887420133" anchor-label="getEpisodeUrl" id="-1300145050%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/get-episode-url.html"><span>get</span><wbr></wbr><span>Episode</span><wbr></wbr><span><span>Url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1300145050%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-http-source/get-episode-url.html"><span class="token function">getEpisodeUrl</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">episode<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-episode/index.html">SEpisode</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Returns the url of the provided episode</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="331020795%2FFunctions%2F-1887420133" anchor-label="getFilterList" id="331020795%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/get-filter-list.html"><span>get</span><wbr></wbr><span>Filter</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="331020795%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-anime-http-source/get-filter-list.html"><span class="token function">getFilterList</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-anime-filter-list/index.html">AnimeFilterList</a></div><div class="brief "><p class="paragraph">Returns the list of filters for the source.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1086314370%2FFunctions%2F-1887420133" anchor-label="headersBuilder" id="-1086314370%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/headers-builder.html"><span>headers</span><wbr></wbr><span><span>Builder</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1086314370%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-http-source/headers-builder.html"><span class="token function">headersBuilder</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-headers/-builder/index.html">Headers.Builder</a></div><div class="brief "><p class="paragraph">Headers builder for requests. Implementations can override this method for custom headers.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="654622183%2FFunctions%2F-1887420133" anchor-label="latestUpdatesFromElement" id="654622183%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="latest-updates-from-element.html"><span>latest</span><wbr></wbr><span>Updates</span><wbr></wbr><span>From</span><wbr></wbr><span><span>Element</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="654622183%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="latest-updates-from-element.html"><span class="token function">latestUpdatesFromElement</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">element<span class="token operator">: </span><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html">Element</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></div><div class="brief "><p class="paragraph">Returns a anime from the given <a href="latest-updates-from-element.html">element</a>. Most sites only show the title and the url, it's totally fine to fill only those two values.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1877717100%2FFunctions%2F-1887420133" anchor-label="latestUpdatesNextPageSelector" id="-1877717100%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="latest-updates-next-page-selector.html"><span>latest</span><wbr></wbr><span>Updates</span><wbr></wbr><span>Next</span><wbr></wbr><span>Page</span><wbr></wbr><span><span>Selector</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1877717100%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="latest-updates-next-page-selector.html"><span class="token function">latestUpdatesNextPageSelector</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Returns the Jsoup selector that returns the <a> tag linking to the next page, or null if there's no next page.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1115983730%2FFunctions%2F-1887420133" anchor-label="latestUpdatesParse" id="1115983730%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="latest-updates-parse.html"><span>latest</span><wbr></wbr><span>Updates</span><wbr></wbr><span><span>Parse</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1115983730%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="latest-updates-parse.html"><span class="token function">latestUpdatesParse</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">response<span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-response/index.html">Response</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-animes-page/index.html">AnimesPage</a></div><div class="brief "><p class="paragraph">Parses the response from the site and returns a <a href="../../eu.kanade.tachiyomi.animesource.model/-animes-page/index.html">AnimesPage</a> object.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1180212187%2FFunctions%2F-1887420133" anchor-label="latestUpdatesRequest" id="-1180212187%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/latest-updates-request.html"><span>latest</span><wbr></wbr><span>Updates</span><wbr></wbr><span><span>Request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1180212187%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-http-source/latest-updates-request.html"><span class="token function">latestUpdatesRequest</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">page<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-request/index.html">Request</a></div><div class="brief "><p class="paragraph">Returns the request for latest anime given the page.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-954807402%2FFunctions%2F-1887420133" anchor-label="latestUpdatesSelector" id="-954807402%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="latest-updates-selector.html"><span>latest</span><wbr></wbr><span>Updates</span><wbr></wbr><span><span>Selector</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-954807402%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="latest-updates-selector.html"><span class="token function">latestUpdatesSelector</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Returns the Jsoup selector that returns a list of <a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html">Element</a> corresponding to each anime.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1428852359%2FFunctions%2F-1887420133" anchor-label="popularAnimeFromElement" id="-1428852359%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="popular-anime-from-element.html"><span>popular</span><wbr></wbr><span>Anime</span><wbr></wbr><span>From</span><wbr></wbr><span><span>Element</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1428852359%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="popular-anime-from-element.html"><span class="token function">popularAnimeFromElement</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">element<span class="token operator">: </span><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html">Element</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></div><div class="brief "><p class="paragraph">Returns a anime from the given <a href="popular-anime-from-element.html">element</a>. Most sites only show the title and the url, it's totally fine to fill only those two values.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1500980134%2FFunctions%2F-1887420133" anchor-label="popularAnimeNextPageSelector" id="1500980134%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="popular-anime-next-page-selector.html"><span>popular</span><wbr></wbr><span>Anime</span><wbr></wbr><span>Next</span><wbr></wbr><span>Page</span><wbr></wbr><span><span>Selector</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1500980134%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="popular-anime-next-page-selector.html"><span class="token function">popularAnimeNextPageSelector</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Returns the Jsoup selector that returns the <a> tag linking to the next page, or null if there's no next page.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-394430816%2FFunctions%2F-1887420133" anchor-label="popularAnimeParse" id="-394430816%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="popular-anime-parse.html"><span>popular</span><wbr></wbr><span>Anime</span><wbr></wbr><span><span>Parse</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-394430816%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="popular-anime-parse.html"><span class="token function">popularAnimeParse</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">response<span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-response/index.html">Response</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-animes-page/index.html">AnimesPage</a></div><div class="brief "><p class="paragraph">Parses the response from the site and returns a <a href="../../eu.kanade.tachiyomi.animesource.model/-animes-page/index.html">AnimesPage</a> object.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-2001007471%2FFunctions%2F-1887420133" anchor-label="popularAnimeRequest" id="-2001007471%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/popular-anime-request.html"><span>popular</span><wbr></wbr><span>Anime</span><wbr></wbr><span><span>Request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2001007471%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-http-source/popular-anime-request.html"><span class="token function">popularAnimeRequest</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">page<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-request/index.html">Request</a></div><div class="brief "><p class="paragraph">Returns the request for the popular anime given the page.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1844457048%2FFunctions%2F-1887420133" anchor-label="popularAnimeSelector" id="-1844457048%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="popular-anime-selector.html"><span>popular</span><wbr></wbr><span>Anime</span><wbr></wbr><span><span>Selector</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1844457048%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="popular-anime-selector.html"><span class="token function">popularAnimeSelector</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Returns the Jsoup selector that returns a list of <a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html">Element</a> corresponding to each anime.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1786138721%2FFunctions%2F-1887420133" anchor-label="prepareNewEpisode" id="1786138721%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/prepare-new-episode.html"><span>prepare</span><wbr></wbr><span>New</span><wbr></wbr><span><span>Episode</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1786138721%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-http-source/prepare-new-episode.html"><span class="token function">prepareNewEpisode</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">episode<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-episode/index.html">SEpisode</a><span class="token punctuation">, </span></span><span class="parameter ">anime<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Called before inserting a new episode into database. Use it if you need to override episode fields, like the title or the episode number. Do not change anything to <a href="../-anime-http-source/prepare-new-episode.html">anime</a>.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="128463518%2FFunctions%2F-1887420133" anchor-label="searchAnimeFromElement" id="128463518%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="search-anime-from-element.html"><span>search</span><wbr></wbr><span>Anime</span><wbr></wbr><span>From</span><wbr></wbr><span><span>Element</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="128463518%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="search-anime-from-element.html"><span class="token function">searchAnimeFromElement</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">element<span class="token operator">: </span><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html">Element</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></div><div class="brief "><p class="paragraph">Returns a anime from the given <a href="search-anime-from-element.html">element</a>. Most sites only show the title and the url, it's totally fine to fill only those two values.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-985836533%2FFunctions%2F-1887420133" anchor-label="searchAnimeNextPageSelector" id="-985836533%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="search-anime-next-page-selector.html"><span>search</span><wbr></wbr><span>Anime</span><wbr></wbr><span>Next</span><wbr></wbr><span>Page</span><wbr></wbr><span><span>Selector</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-985836533%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="search-anime-next-page-selector.html"><span class="token function">searchAnimeNextPageSelector</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token operator">?</span></div><div class="brief "><p class="paragraph">Returns the Jsoup selector that returns the <a> tag linking to the next page, or null if there's no next page.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="2104409435%2FFunctions%2F-1887420133" anchor-label="searchAnimeParse" id="2104409435%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="search-anime-parse.html"><span>search</span><wbr></wbr><span>Anime</span><wbr></wbr><span><span>Parse</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2104409435%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="search-anime-parse.html"><span class="token function">searchAnimeParse</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">response<span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-response/index.html">Response</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-animes-page/index.html">AnimesPage</a></div><div class="brief "><p class="paragraph">Parses the response from the site and returns a <a href="../../eu.kanade.tachiyomi.animesource.model/-animes-page/index.html">AnimesPage</a> object.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-873808069%2FFunctions%2F-1887420133" anchor-label="searchAnimeRequest" id="-873808069%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/search-anime-request.html"><span>search</span><wbr></wbr><span>Anime</span><wbr></wbr><span><span>Request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-873808069%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-http-source/search-anime-request.html"><span class="token function">searchAnimeRequest</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">page<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">query<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">filters<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-anime-filter-list/index.html">AnimeFilterList</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-request/index.html">Request</a></div><div class="brief "><p class="paragraph">Returns the request for the search anime given the page and filters.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1442105587%2FFunctions%2F-1887420133" anchor-label="searchAnimeSelector" id="-1442105587%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="search-anime-selector.html"><span>search</span><wbr></wbr><span>Anime</span><wbr></wbr><span><span>Selector</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1442105587%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="search-anime-selector.html"><span class="token function">searchAnimeSelector</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Returns the Jsoup selector that returns a list of <a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html">Element</a> corresponding to each anime.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1576812187%2FFunctions%2F-1887420133" anchor-label="setUrlWithoutDomain" id="-1576812187%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/set-url-without-domain.html"><span>set</span><wbr></wbr><span>Url</span><wbr></wbr><span>Without</span><wbr></wbr><span><span>Domain</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1576812187%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a><span class="token punctuation">.</span><a href="../-anime-http-source/set-url-without-domain.html"><span class="token function">setUrlWithoutDomain</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">url<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Assigns the url of the anime without the scheme and domain. It saves some redundancy from database and the urls could still work after a domain change.</p></div><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-episode/index.html">SEpisode</a><span class="token punctuation">.</span><a href="../-anime-http-source/set-url-without-domain.html"><span class="token function">setUrlWithoutDomain</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">url<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div><div class="brief "><p class="paragraph">Assigns the url of the episode without the scheme and domain. It saves some redundancy from database and the urls could still work after a domain change.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="788573181%2FFunctions%2F-1887420133" anchor-label="sort" id="788573181%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/sort.html"><span><span>sort</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="788573181%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-video/index.html">Video</a><span class="token operator">&gt;</span><span class="token punctuation">.</span><a href="../-anime-http-source/sort.html"><span class="token function">sort</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-video/index.html">Video</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Sorts the video list. Override this according to the user's preference.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1384349785%2FFunctions%2F-1887420133" anchor-label="toString" id="-1384349785%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/to-string.html"><span>to</span><wbr></wbr><span><span>String</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1384349785%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="../-anime-http-source/to-string.html"><span class="token function">toString</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Visible name of the source.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="844661935%2FFunctions%2F-1887420133" anchor-label="videoFromElement" id="844661935%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="video-from-element.html"><span>video</span><wbr></wbr><span>From</span><wbr></wbr><span><span>Element</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="844661935%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="video-from-element.html"><span class="token function">videoFromElement</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">element<span class="token operator">: </span><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html">Element</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-video/index.html">Video</a></div><div class="brief "><p class="paragraph">Returns a video from the given element.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1971926040%2FFunctions%2F-1887420133" anchor-label="videoListParse" id="-1971926040%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="video-list-parse.html"><span>video</span><wbr></wbr><span>List</span><wbr></wbr><span><span>Parse</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1971926040%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="video-list-parse.html"><span class="token function">videoListParse</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">response<span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-response/index.html">Response</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-video/index.html">Video</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Parses the response from the site and returns a list of videos.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1655656282%2FFunctions%2F-1887420133" anchor-label="videoListRequest" id="-1655656282%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/video-list-request.html"><span>video</span><wbr></wbr><span>List</span><wbr></wbr><span><span>Request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1655656282%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-http-source/video-list-request.html"><span class="token function">videoListRequest</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">episode<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-episode/index.html">SEpisode</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-request/index.html">Request</a></div><div class="brief "><p class="paragraph">Returns the request for getting the video list. Override only if it's needed to override the url, send different headers or request method like POST.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1848477536%2FFunctions%2F-1887420133" anchor-label="videoListSelector" id="1848477536%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="video-list-selector.html"><span>video</span><wbr></wbr><span>List</span><wbr></wbr><span><span>Selector</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1848477536%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="video-list-selector.html"><span class="token function">videoListSelector</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Returns the Jsoup selector that returns a list of <a href="https://jsoup.org/apidocs/org/jsoup/nodes/Element.html">Element</a> corresponding to each video.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1810788835%2FFunctions%2F-1887420133" anchor-label="videoUrlParse" id="-1810788835%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="video-url-parse.html"><span>video</span><wbr></wbr><span>Url</span><wbr></wbr><span><span>Parse</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1810788835%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">fun </span><a href="video-url-parse.html"><span class="token function">videoUrlParse</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">response<span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-response/index.html">Response</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><br><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="video-url-parse.html"><span class="token function">videoUrlParse</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">document<span class="token operator">: </span><a href="https://jsoup.org/apidocs/org/jsoup/nodes/Document.html">Document</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Returns the absolute url to the video url from the document.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-628033398%2FFunctions%2F-1887420133" anchor-label="videoUrlRequest" id="-628033398%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/video-url-request.html"><span>video</span><wbr></wbr><span>Url</span><wbr></wbr><span><span>Request</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-628033398%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-http-source/video-url-request.html"><span class="token function">videoUrlRequest</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">video<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-video/index.html">Video</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-request/index.html">Request</a></div><div class="brief "><p class="paragraph">Returns the request for getting the url to the source video. Override only if it's needed to override the url, send different headers or request method like POST.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="140796169%2FProperties%2F-1887420133" anchor-label="baseUrl" id="140796169%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/base-url.html"><span>base</span><wbr></wbr><span><span>Url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="140796169%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="140796169%2FProperties%2F-1887420133" anchor-label="baseUrl" id="140796169%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="../-anime-http-source/base-url.html">baseUrl</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><a data-name="140796169%2FProperties%2F-1887420133" anchor-label="baseUrl" id="140796169%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">Base url of the website without the trailing slash, like: http://mysite.com</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1120539816%2FProperties%2F-1887420133" anchor-label="client" id="1120539816%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/client.html"><span><span>client</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1120539816%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="1120539816%2FProperties%2F-1887420133" anchor-label="client" id="1120539816%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">val </span><a href="../-anime-http-source/client.html">client</a><span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-ok-http-client/index.html">OkHttpClient</a></div><div class="brief "><a data-name="1120539816%2FProperties%2F-1887420133" anchor-label="client" id="1120539816%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">Default network client for doing requests. Implementations can override this property for custom <a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-ok-http-client/index.html">OkHttpClient</a> instances.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1907804001%2FProperties%2F-1887420133" anchor-label="headers" id="1907804001%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/headers.html"><span><span>headers</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1907804001%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="1907804001%2FProperties%2F-1887420133" anchor-label="headers" id="1907804001%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="../-anime-http-source/headers.html">headers</a><span class="token operator">: </span><a href="https://square.github.io/okhttp/4.x/okhttp/okhttp3/-headers/index.html">Headers</a></div><div class="brief "><a data-name="1907804001%2FProperties%2F-1887420133" anchor-label="headers" id="1907804001%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">Headers used for requests. Result of <a href="../-anime-http-source/headers-builder.html">headersBuilder</a></p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1481920424%2FProperties%2F-1887420133" anchor-label="id" id="-1481920424%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/id.html"><span><span>id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1481920424%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="-1481920424%2FProperties%2F-1887420133" anchor-label="id" id="-1481920424%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword">override </span><span class="token keyword">val </span><a href="../-anime-http-source/id.html">id</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></div><div class="brief "><a data-name="-1481920424%2FProperties%2F-1887420133" anchor-label="id" id="-1481920424%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">Id of the source. By default it uses a generated id using the first 16 characters (64 bits) of the MD5 of the string: sourcename/language/versionId Implementations MUST ONLY override this property to use a hardcoded ID when the source name or language were changed. Note the generated id sets the sign bit to 0.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1909394597%2FProperties%2F-1887420133" anchor-label="lang" id="-1909394597%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../eu.kanade.tachiyomi.animesource/-anime-catalogue-source/lang.html"><span><span>lang</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1909394597%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="-1909394597%2FProperties%2F-1887420133" anchor-label="lang" id="-1909394597%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="../../eu.kanade.tachiyomi.animesource/-anime-catalogue-source/lang.html">lang</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><a data-name="-1909394597%2FProperties%2F-1887420133" anchor-label="lang" id="-1909394597%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">An ISO 639-1 compliant language code (two letters in lower case).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1607707143%2FProperties%2F-1887420133" anchor-label="name" id="1607707143%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../eu.kanade.tachiyomi.animesource/-anime-source/name.html"><span><span>name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1607707143%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="1607707143%2FProperties%2F-1887420133" anchor-label="name" id="1607707143%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="../../eu.kanade.tachiyomi.animesource/-anime-source/name.html">name</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><a data-name="1607707143%2FProperties%2F-1887420133" anchor-label="name" id="1607707143%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">Name of the source.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="435595705%2FProperties%2F-1887420133" anchor-label="network" id="435595705%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/network.html"><span><span>network</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="435595705%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="435595705%2FProperties%2F-1887420133" anchor-label="network" id="435595705%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">protected </span><span class="token keyword"></span><span class="token keyword">val </span><a href="../-anime-http-source/network.html">network</a><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.network/-network-helper/index.html">NetworkHelper</a></div><div class="brief "><a data-name="435595705%2FProperties%2F-1887420133" anchor-label="network" id="435595705%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">Network service.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1290445246%2FProperties%2F-1887420133" anchor-label="supportsLatest" id="1290445246%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../eu.kanade.tachiyomi.animesource/-anime-catalogue-source/supports-latest.html"><span>supports</span><wbr></wbr><span><span>Latest</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1290445246%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="1290445246%2FProperties%2F-1887420133" anchor-label="supportsLatest" id="1290445246%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="../../eu.kanade.tachiyomi.animesource/-anime-catalogue-source/supports-latest.html">supportsLatest</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><a data-name="1290445246%2FProperties%2F-1887420133" anchor-label="supportsLatest" id="1290445246%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">Whether the source has support for latest updates.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1992375540%2FProperties%2F-1887420133" anchor-label="versionId" id="1992375540%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-http-source/version-id.html"><span>version</span><wbr></wbr><span><span>Id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1992375540%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="1992375540%2FProperties%2F-1887420133" anchor-label="versionId" id="1992375540%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">open </span><span class="token keyword"></span><span class="token keyword">val </span><a href="../-anime-http-source/version-id.html">versionId</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></div><div class="brief "><a data-name="1992375540%2FProperties%2F-1887420133" anchor-label="versionId" id="1992375540%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">Version id used to generate the source id. If the site completely changes and urls are incompatible, you may increase this value and it'll be considered as a new source.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

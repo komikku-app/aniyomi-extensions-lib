@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>AnimeCatalogueSource</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>extensions-lib</span>
+            </a>
+    </div>
+    <div>
+14    </div>
+    <div class="pull-right d-flex">
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" id="content" pageIds="extensions-lib::eu.kanade.tachiyomi.animesource/AnimeCatalogueSource///PointingToDeclaration//-1887420133">
+  <div class="breadcrumbs"><a href="../../../index.html">extensions-lib</a><span class="delimiter">/</span><a href="../index.html">eu.kanade.tachiyomi.animesource</a><span class="delimiter">/</span><span class="current">AnimeCatalogueSource</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Anime</span><wbr></wbr><span>Catalogue</span><wbr></wbr><span><span>Source</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">AnimeCatalogueSource</a> : <a href="../-anime-source/index.html">AnimeSource</a></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="Functions">Functions</button><button class="section-tab" data-togglable="Properties">Properties</button><button class="section-tab" data-togglable="Inheritors">Inheritors</button></div>
+    <div class="tabs-section-body">
+      <h2 class="">Functions</h2>
+      <div class="table" data-togglable="Functions"><a data-name="-2114252752%2FFunctions%2F-1887420133" anchor-label="fetchAnimeDetails" id="-2114252752%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-source/fetch-anime-details.html"><span>fetch</span><wbr></wbr><span>Anime</span><wbr></wbr><span><span>Details</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2114252752%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-source/fetch-anime-details.html"><span class="token function">fetchAnimeDetails</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">anime<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an observable with the updated details for a anime.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="953197507%2FFunctions%2F-1887420133" anchor-label="fetchEpisodeList" id="953197507%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-source/fetch-episode-list.html"><span>fetch</span><wbr></wbr><span>Episode</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="953197507%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-source/fetch-episode-list.html"><span class="token function">fetchEpisodeList</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">anime<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-anime/index.html">SAnime</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-episode/index.html">SEpisode</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an observable with all the available episodes for a anime.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1744996254%2FFunctions%2F-1887420133" anchor-label="fetchLatestUpdates" id="1744996254%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="fetch-latest-updates.html"><span>fetch</span><wbr></wbr><span>Latest</span><wbr></wbr><span><span>Updates</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1744996254%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="fetch-latest-updates.html"><span class="token function">fetchLatestUpdates</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">page<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-animes-page/index.html">AnimesPage</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an observable containing a page with a list of latest anime updates.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1420785850%2FFunctions%2F-1887420133" anchor-label="fetchPopularAnime" id="1420785850%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="fetch-popular-anime.html"><span>fetch</span><wbr></wbr><span>Popular</span><wbr></wbr><span><span>Anime</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1420785850%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="fetch-popular-anime.html"><span class="token function">fetchPopularAnime</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">page<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-animes-page/index.html">AnimesPage</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an observable containing a page with a list of anime.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-902875902%2FFunctions%2F-1887420133" anchor-label="fetchSearchAnime" id="-902875902%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="fetch-search-anime.html"><span>fetch</span><wbr></wbr><span>Search</span><wbr></wbr><span><span>Anime</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-902875902%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="fetch-search-anime.html"><span class="token function">fetchSearchAnime</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">page<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">query<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">filters<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-anime-filter-list/index.html">AnimeFilterList</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-animes-page/index.html">AnimesPage</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an observable containing a page with a list of anime.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1546387940%2FFunctions%2F-1887420133" anchor-label="fetchVideoList" id="-1546387940%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-source/fetch-video-list.html"><span>fetch</span><wbr></wbr><span>Video</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1546387940%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="../-anime-source/fetch-video-list.html"><span class="token function">fetchVideoList</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">episode<span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-s-episode/index.html">SEpisode</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://reactivex.io/RxJava/1.x/javadoc/rx/Observable.html">Observable</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../../eu.kanade.tachiyomi.animesource.model/-video/index.html">Video</a><span class="token operator">&gt;</span><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an observable with a list of video for the episode of an anime.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1667435717%2FFunctions%2F-1887420133" anchor-label="getFilterList" id="1667435717%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="get-filter-list.html"><span>get</span><wbr></wbr><span>Filter</span><wbr></wbr><span><span>List</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1667435717%2FFunctions%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="get-filter-list.html"><span class="token function">getFilterList</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../eu.kanade.tachiyomi.animesource.model/-anime-filter-list/index.html">AnimeFilterList</a></div><div class="brief "><p class="paragraph">Returns the list of filters for the source.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Properties</h2>
+      <div class="table" data-togglable="Properties"><a data-name="-593677641%2FProperties%2F-1887420133" anchor-label="id" id="-593677641%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-source/id.html"><span><span>id</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-593677641%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="-593677641%2FProperties%2F-1887420133" anchor-label="id" id="-593677641%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="../-anime-source/id.html">id</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-long/index.html">Long</a></div><div class="brief "><a data-name="-593677641%2FProperties%2F-1887420133" anchor-label="id" id="-593677641%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">Id for the source. Must be unique.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="-1909394597%2FProperties%2F-1887420133" anchor-label="lang" id="-1909394597%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="lang.html"><span><span>lang</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1909394597%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="-1909394597%2FProperties%2F-1887420133" anchor-label="lang" id="-1909394597%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="lang.html">lang</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><a data-name="-1909394597%2FProperties%2F-1887420133" anchor-label="lang" id="-1909394597%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">An ISO 639-1 compliant language code (two letters in lower case).</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1607707143%2FProperties%2F-1887420133" anchor-label="name" id="1607707143%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../-anime-source/name.html"><span><span>name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1607707143%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="1607707143%2FProperties%2F-1887420133" anchor-label="name" id="1607707143%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="../-anime-source/name.html">name</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><a data-name="1607707143%2FProperties%2F-1887420133" anchor-label="name" id="1607707143%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">Name of the source.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+<a data-name="1290445246%2FProperties%2F-1887420133" anchor-label="supportsLatest" id="1290445246%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="supports-latest.html"><span>supports</span><wbr></wbr><span><span>Latest</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1290445246%2FProperties%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div>
+              <div class="title">
+                <div class="platform-hinted " data-platform-hinted="data-platform-hinted" data-togglable="Properties"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><a data-name="1290445246%2FProperties%2F-1887420133" anchor-label="supportsLatest" id="1290445246%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">val </span><a href="supports-latest.html">supportsLatest</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-boolean/index.html">Boolean</a></div><div class="brief "><a data-name="1290445246%2FProperties%2F-1887420133" anchor-label="supportsLatest" id="1290445246%2FProperties%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a><p class="paragraph">Whether the source has support for latest updates.</p></div></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <h2 class="">Inheritors</h2>
+      <div class="table" data-togglable="Inheritors"><a data-name="-1070961300%2FInheritors%2F-1887420133" anchor-label="AnimeHttpSource" id="-1070961300%2FInheritors%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
+        <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+          <div class="main-subrow keyValue ">
+            <div class=""><span class="inline-flex">
+                <div><a href="../../eu.kanade.tachiyomi.animesource.online/-anime-http-source/index.html">AnimeHttpSource</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1070961300%2FInheritors%2F-1887420133"></span>
+                  <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                </span></span></div>
+            <div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
