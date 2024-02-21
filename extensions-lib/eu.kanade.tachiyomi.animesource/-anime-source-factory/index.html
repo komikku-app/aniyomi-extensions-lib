@@ -48,7 +48,7 @@
 14            </div>
         </div>
         <div class="filter-section" id="filter-section">
-                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":library:dokkaHtml/release">androidJvm</button>
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":library/main">jvm</button>
         </div>
     </div>
     <div class="navigation-controls">
@@ -61,28 +61,28 @@
                 <div class="sidebar--inner" id="sideMenu"></div>
             </div>
             <div id="main">
-<div class="main-content" data-page-type="classlike" id="content" pageIds="extensions-lib::eu.kanade.tachiyomi.animesource/AnimeSourceFactory///PointingToDeclaration//-1887420133">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="extensions-lib::eu.kanade.tachiyomi.animesource/AnimeSourceFactory///PointingToDeclaration//177865961">
   <div class="breadcrumbs"><a href="../../../index.html">extensions-lib</a><span class="delimiter">/</span><a href="../index.html">eu.kanade.tachiyomi.animesource</a><span class="delimiter">/</span><span class="current">AnimeSourceFactory</span></div>
   <div class="cover ">
     <h1 class="cover"><span>Anime</span><wbr></wbr><span>Source</span><wbr></wbr><span><span>Factory</span></span></h1>
-    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">AnimeSourceFactory</a></div><p class="paragraph">A factory for creating multiple sources at runtime. Use this in case of a source that supports multiple languages or mirrors of the same website.</p><p class="paragraph"><strong>Note:</strong> Your animesource factory classname must be used in the <code class="lang-kotlin">extClass</code> param of your <code class="lang-kotlin">build.gradle</code> file instead of the true animesource class.</p><p class="paragraph"><strong>Example usage:</strong></p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">class SomeSourceFactory : AnimeSourceFactory {<br>    override fun createSources() = listOf(<br>        SomeSource(&quot;SomeSource ENG&quot;, &quot;en&quot;, &quot;https://somesource.en&quot;),<br>        SomeSource(&quot;SomeSource ESP&quot;, &quot;es&quot;, &quot;https://somesource.es&quot;),<br>        SomeSource(&quot;SomeSource RUS&quot;, &quot;ru&quot;, &quot;https://somesource.ru&quot;),<br>    )<br>}<br><br>class SomeSource(<br>    override val name: String,<br>    override val lang: String,<br>    override val baseUrl: String,<br>) : ParsedAnimeHttpSource() {<br>    // some code<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library/main"><div class="symbol monospace"><span class="token keyword">interface </span><a href="index.html">AnimeSourceFactory</a><span class="clearfix"><span class="floating-right">(<a href="https://github.com/aniyomiorg/aniyomi/tree/master/source-api/src/commonMain/kotlin/eu/kanade/tachiyomi/animesource//AnimeSourceFactory.kt#29">source</a>)</span></span></div><p class="paragraph">A factory for creating multiple sources at runtime. Use this in case of a source that supports multiple languages or mirrors of the same website.</p><p class="paragraph"><strong>Note:</strong> Your animesource factory classname must be used in the <code class="lang-kotlin">extClass</code> param of your <code class="lang-kotlin">build.gradle</code> file instead of the true animesource class.</p><p class="paragraph"><strong>Example usage:</strong></p><div class="sample-container"><pre><code class="block lang-kotlin" theme="idea">class SomeSourceFactory : AnimeSourceFactory {<br>    override fun createSources() = listOf(<br>        SomeSource(&quot;SomeSource ENG&quot;, &quot;en&quot;, &quot;https://somesource.en&quot;),<br>        SomeSource(&quot;SomeSource ESP&quot;, &quot;es&quot;, &quot;https://somesource.es&quot;),<br>        SomeSource(&quot;SomeSource RUS&quot;, &quot;ru&quot;, &quot;https://somesource.ru&quot;),<br>    )<br>}<br><br>class SomeSource(<br>    override val name: String,<br>    override val lang: String,<br>    override val baseUrl: String,<br>) : ParsedAnimeHttpSource() {<br>    // some code<br>}</code></pre><span class="top-right-position"><span class="copy-icon"></span><div class="copy-popup-wrapper popup-to-left"><span class="copy-popup-icon"></span><span>Content copied to clipboard</span></div></span></div></div></div>
   </div>
   <div class="tabbedcontent">
     <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
     <div class="tabs-section-body">
       <div data-togglable="FUNCTION">
         <h2 class="">Functions</h2>
-        <div class="table"><a data-name="-591775446%2FFunctions%2F-1887420133" anchor-label="createSources" id="-591775446%2FFunctions%2F-1887420133" data-filterable-set=":library:dokkaHtml/release"></a>
-          <div class="table-row" data-filterable-current=":library:dokkaHtml/release" data-filterable-set=":library:dokkaHtml/release">
+        <div class="table"><a data-name="-591775446%2FFunctions%2F177865961" anchor-label="createSources" id="-591775446%2FFunctions%2F177865961" data-filterable-set=":library/main"></a>
+          <div class="table-row" data-filterable-current=":library/main" data-filterable-set=":library/main">
             <div class="main-subrow keyValue ">
               <div class=""><span class="inline-flex">
                   <div><a href="create-sources.html"><span>create</span><wbr></wbr><span><span>Sources</span></span></a></div>
-<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-591775446%2FFunctions%2F-1887420133"></span>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-591775446%2FFunctions%2F177865961"></span>
                     <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
                   </span></span></div>
               <div>
                 <div class="title">
-                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library:dokkaHtml/release"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-sources.html"><span class="token function">createSources</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-anime-source/index.html">AnimeSource</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Create a new copy of the sources</p></div></div></div>
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":library/main"><div class="symbol monospace"><span class="token keyword">abstract </span><span class="token keyword"></span><span class="token keyword">fun </span><a href="create-sources.html"><span class="token function">createSources</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-list/index.html">List</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="../-anime-source/index.html">AnimeSource</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Create a new copy of the sources</p></div></div></div>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@
   </div>
 </div>
       <div class="footer">
-        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2023 Copyright</span><span
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2024 Copyright</span><span
                 class="pull-right"><span>Generated by </span><a
                 href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
       </div>
