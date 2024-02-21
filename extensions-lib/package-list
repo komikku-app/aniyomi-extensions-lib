@@ -255,7 +255,6 @@ $dokka.location:eu.kanade.tachiyomi.animesource/AnimeSource/name/#/PointingToDec
 $dokka.location:eu.kanade.tachiyomi.animesource/AnimeSourceFactory///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource/-anime-source-factory/index.html
 $dokka.location:eu.kanade.tachiyomi.animesource/AnimeSourceFactory/createSources/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource/-anime-source-factory/create-sources.html
 $dokka.location:eu.kanade.tachiyomi.animesource/ConfigurableAnimeSource///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource/-configurable-anime-source/index.html
-$dokka.location:eu.kanade.tachiyomi.animesource/ConfigurableAnimeSource/getSourcePreferences/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource/-configurable-anime-source/get-source-preferences.html
 $dokka.location:eu.kanade.tachiyomi.animesource/ConfigurableAnimeSource/setupPreferenceScreen/#androidx.preference.PreferenceScreen/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource/-configurable-anime-source/setup-preference-screen.html
 $dokka.location:eu.kanade.tachiyomi.animesource/UnmeteredSource///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource/-unmetered-source/index.html
 $dokka.location:eu.kanade.tachiyomi.network.interceptor////PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network.interceptor/index.html
