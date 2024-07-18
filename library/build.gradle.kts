@@ -42,6 +42,7 @@ dependencies {
     compileOnly(libs.jsoup)
     compileOnly(libs.rxjava)
     compileOnly(libs.rxandroid)
+    compileOnly(libs.unifile)
     compileOnly(libs.injekt.core)
     compileOnly(libs.coroutines)
     compileOnly(libs.kotlin.json)
