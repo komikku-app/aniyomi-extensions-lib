@@ -2,13 +2,13 @@ package tachiyomi.source.local.io.anime
 
 import com.hippo.unifile.UniFile
 
-abstract class LocalAnimeSourceFileSystem {
+class LocalAnimeSourceFileSystem {
 
-    protected abstract fun getBaseDirectory(): UniFile?
+    fun getBaseDirectory(): UniFile? = throw Exception("Stub!")
 
-    protected abstract fun getFilesInBaseDirectory(): List<UniFile>
+    fun getFilesInBaseDirectory(): List<UniFile> = throw Exception("Stub!")
 
-    protected abstract fun getAnimeDirectory(name: String): UniFile?
+    fun getAnimeDirectory(name: String): UniFile? = throw Exception("Stub!")
 
-    protected abstract fun getFilesInAnimeDirectory(name: String): List<UniFile>
+    fun getFilesInAnimeDirectory(name: String): List<UniFile> = throw Exception("Stub!")
 }
