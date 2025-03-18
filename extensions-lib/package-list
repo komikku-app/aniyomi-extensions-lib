@@ -282,6 +282,26 @@ $dokka.location:eu.kanade.tachiyomi.network/NetworkHelper/NetworkHelper/#android
 $dokka.location:eu.kanade.tachiyomi.network/NetworkHelper/client/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/-network-helper/client.html
 $dokka.location:eu.kanade.tachiyomi.network/NetworkHelper/cloudflareClient/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/-network-helper/cloudflare-client.html
 $dokka.location:eu.kanade.tachiyomi.network/NetworkHelper/defaultUserAgentProvider/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/-network-helper/default-user-agent-provider.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model////PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/index.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/DeadTorrentException///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-dead-torrent-exception/index.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/DeadTorrentException/DeadTorrentException/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-dead-torrent-exception/-dead-torrent-exception.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentFile///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-file/index.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentFile/TorrentFile/#kotlin.String#kotlin.Int#kotlin.Long#kotlin.String#kotlin.collections.List[kotlin.String]/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-file/-torrent-file.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentFile/indexFile/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-file/index-file.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentFile/path/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-file/path.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentFile/size/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-file/size.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentFile/toMagnetURI/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-file/to-magnet-u-r-i.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentInfo///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-info/index.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentInfo/TorrentInfo/#kotlin.String#kotlin.collections.List[eu.kanade.tachiyomi.torrentutils.model.TorrentFile]#kotlin.String#kotlin.Long#kotlin.collections.List[kotlin.String]/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-info/-torrent-info.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentInfo/files/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-info/files.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentInfo/hash/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-info/hash.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentInfo/setTrackers/#kotlin.collections.List[kotlin.String]/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-info/set-trackers.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentInfo/size/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-info/size.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentInfo/title/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-info/title.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils.model/TorrentInfo/trackers/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils.model/-torrent-info/trackers.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils////PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils/index.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils/TorrentUtils///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils/-torrent-utils/index.html
+$dokka.location:eu.kanade.tachiyomi.torrentutils/TorrentUtils/getTorrentInfo/#kotlin.String#kotlin.String/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.torrentutils/-torrent-utils/get-torrent-info.html
 $dokka.location:eu.kanade.tachiyomi.util////PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.util/index.html
 $dokka.location:eu.kanade.tachiyomi.util//asJsoup/okhttp3.Response#kotlin.String?/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.util/as-jsoup.html
 $dokka.location:eu.kanade.tachiyomi.util//parallelCatchingFlatMap/kotlin.collections.Iterable[TypeParam(bounds=[kotlin.Any?])]#kotlin.coroutines.SuspendFunction1[TypeParam(bounds=[kotlin.Any?]),kotlin.collections.Iterable[TypeParam(bounds=[kotlin.Any?])]]/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.util/parallel-catching-flat-map.html
@@ -300,6 +320,13 @@ $dokka.location:eu.kanade.tachiyomi////PointingToDeclaration/extensions-lib/eu.
 $dokka.location:eu.kanade.tachiyomi/AppInfo///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi/-app-info/index.html
 $dokka.location:eu.kanade.tachiyomi/AppInfo/getVersionCode/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi/-app-info/get-version-code.html
 $dokka.location:eu.kanade.tachiyomi/AppInfo/getVersionName/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi/-app-info/get-version-name.html
+$dokka.location:tachiyomi.source.local.io.anime////PointingToDeclaration/extensions-lib/tachiyomi.source.local.io.anime/index.html
+$dokka.location:tachiyomi.source.local.io.anime/LocalAnimeSourceFileSystem///PointingToDeclaration/extensions-lib/tachiyomi.source.local.io.anime/-local-anime-source-file-system/index.html
+$dokka.location:tachiyomi.source.local.io.anime/LocalAnimeSourceFileSystem/LocalAnimeSourceFileSystem/#/PointingToDeclaration/extensions-lib/tachiyomi.source.local.io.anime/-local-anime-source-file-system/-local-anime-source-file-system.html
+$dokka.location:tachiyomi.source.local.io.anime/LocalAnimeSourceFileSystem/getAnimeDirectory/#kotlin.String/PointingToDeclaration/extensions-lib/tachiyomi.source.local.io.anime/-local-anime-source-file-system/get-anime-directory.html
+$dokka.location:tachiyomi.source.local.io.anime/LocalAnimeSourceFileSystem/getBaseDirectory/#/PointingToDeclaration/extensions-lib/tachiyomi.source.local.io.anime/-local-anime-source-file-system/get-base-directory.html
+$dokka.location:tachiyomi.source.local.io.anime/LocalAnimeSourceFileSystem/getFilesInAnimeDirectory/#kotlin.String/PointingToDeclaration/extensions-lib/tachiyomi.source.local.io.anime/-local-anime-source-file-system/get-files-in-anime-directory.html
+$dokka.location:tachiyomi.source.local.io.anime/LocalAnimeSourceFileSystem/getFilesInBaseDirectory/#/PointingToDeclaration/extensions-lib/tachiyomi.source.local.io.anime/-local-anime-source-file-system/get-files-in-base-directory.html
 androidx.preference
 eu.kanade.tachiyomi
 eu.kanade.tachiyomi.animesource
@@ -307,5 +334,8 @@ eu.kanade.tachiyomi.animesource.model
 eu.kanade.tachiyomi.animesource.online
 eu.kanade.tachiyomi.network
 eu.kanade.tachiyomi.network.interceptor
+eu.kanade.tachiyomi.torrentutils
+eu.kanade.tachiyomi.torrentutils.model
 eu.kanade.tachiyomi.util
+tachiyomi.source.local.io.anime
 
