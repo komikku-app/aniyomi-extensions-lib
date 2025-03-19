@@ -1,5 +1,5 @@
 [versions]
-agp_version = "8.2.2"
+agp_version = "8.9.0"
 coroutines_version = "1.8.1"
 kotlin_version = "2.0.0"
 okhttp_version = "5.0.0-alpha.14"
