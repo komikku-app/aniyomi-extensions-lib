@@ -3,7 +3,7 @@ agp_version = "8.2.2"
 coroutines_version = "1.8.1"
 kotlin_version = "2.0.0"
 okhttp_version = "5.0.0-alpha.14"
-serialization_version = "1.7.1"
+serialization_version = "1.8.0"
 dokkatoo_version = "2.1.0"
 
 [libraries]
