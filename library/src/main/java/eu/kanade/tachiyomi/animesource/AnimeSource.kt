@@ -64,4 +64,19 @@ interface AnimeSource {
         ReplaceWith("getVideoList"),
     )
     fun fetchVideoList(episode: SEpisode): Observable<List<Video>>
+
+    // KMK -->
+    /**
+     * Get all the available related animes for a anime.
+     *
+     * @since anikku/extensions-lib 15
+     * @param anime the current anime to get related animes.
+     * @return a list of <keyword, related animes>
+     */
+    suspend fun getRelatedAnimeList(
+        anime: SAnime,
+        exceptionHandler: (Throwable) -> Unit,
+        pushResults: suspend (relatedAnime: Pair<String, List<SAnime>>, completed: Boolean) -> Unit,
+    )
+    // KMK <--
 }

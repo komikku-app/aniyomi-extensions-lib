@@ -1,10 +1,9 @@
 package eu.kanade.tachiyomi.animesource.online
 
 import eu.kanade.tachiyomi.animesource.model.AnimesPage
-import eu.kanade.tachiyomi.animesource.model.Video
-import eu.kanade.tachiyomi.animesource.model.SEpisode
 import eu.kanade.tachiyomi.animesource.model.SAnime
-import okhttp3.Request
+import eu.kanade.tachiyomi.animesource.model.SEpisode
+import eu.kanade.tachiyomi.animesource.model.Video
 import okhttp3.Response
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
@@ -113,6 +112,34 @@ abstract class ParsedAnimeHttpSource : AnimeHttpSource() {
      * @param document the parsed document.
      */
     protected abstract fun animeDetailsParse(document: Document): SAnime
+
+    // KMK -->
+    /**
+     * Parses the response from the site and returns a list of related animes.
+     * Normally it's not needed to override this method.
+     *
+     * @since anikku/extensions-lib 15
+     * @param response the response from the site.
+     */
+    override fun relatedAnimeListParse(response: Response): List<SAnime> {
+        throw Exception("Stub!")
+    }
+
+    /**
+     * Returns the Jsoup selector that returns a list of [Element] corresponding to each related animes.
+     *
+     * @since anikku/extensions-lib 15
+     */
+    protected open fun relatedAnimeListSelector(): String = throw Exception("Stub!")
+
+    /**
+     * Returns a anime from the given element.
+     *
+     * @since anikku/extensions-lib 15
+     * @param element an element obtained from [relatedAnimeListSelector].
+     */
+    protected open fun relatedAnimeFromElement(element: Element): SAnime = throw Exception("Stub!")
+    // KMK <--
 
     /**
      * Parses the response from the site and returns a list of episodes.
