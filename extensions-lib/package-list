@@ -158,8 +158,6 @@ $dokka.location:eu.kanade.tachiyomi.animesource.model/Video/subtitleTracks/#/Poi
 $dokka.location:eu.kanade.tachiyomi.animesource.model/Video/url/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.model/-video/url.html
 $dokka.location:eu.kanade.tachiyomi.animesource.model/Video/videoUrl/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.model/-video/video-url.html
 $dokka.location:eu.kanade.tachiyomi.animesource.online////PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.online/index.html
-$dokka.location:eu.kanade.tachiyomi.animesource.online/AnimeHttpSource.Companion///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.online/-anime-http-source/-companion/index.html
-$dokka.location:eu.kanade.tachiyomi.animesource.online/AnimeHttpSource.Companion/commonEmptyHeaders/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.online/-anime-http-source/-companion/common-empty-headers.html
 $dokka.location:eu.kanade.tachiyomi.animesource.online/AnimeHttpSource///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.online/-anime-http-source/index.html
 $dokka.location:eu.kanade.tachiyomi.animesource.online/AnimeHttpSource/AnimeHttpSource/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.online/-anime-http-source/-anime-http-source.html
 $dokka.location:eu.kanade.tachiyomi.animesource.online/AnimeHttpSource/animeDetailsParse/#okhttp3.Response/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.online/-anime-http-source/anime-details-parse.html
@@ -289,6 +287,7 @@ $dokka.location:eu.kanade.tachiyomi.network//asObservable/okhttp3.Call#/Pointing
 $dokka.location:eu.kanade.tachiyomi.network//asObservableSuccess/okhttp3.Call#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/as-observable-success.html
 $dokka.location:eu.kanade.tachiyomi.network//await/okhttp3.Call#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/await.html
 $dokka.location:eu.kanade.tachiyomi.network//awaitSuccess/okhttp3.Call#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/await-success.html
+$dokka.location:eu.kanade.tachiyomi.network//commonEmptyHeaders/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/common-empty-headers.html
 $dokka.location:eu.kanade.tachiyomi.network/HttpException///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/-http-exception/index.html
 $dokka.location:eu.kanade.tachiyomi.network/HttpException/HttpException/#kotlin.Int/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/-http-exception/-http-exception.html
 $dokka.location:eu.kanade.tachiyomi.network/HttpException/code/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/-http-exception/code.html
