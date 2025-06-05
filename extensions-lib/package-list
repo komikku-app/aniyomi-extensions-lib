@@ -287,7 +287,6 @@ $dokka.location:eu.kanade.tachiyomi.network//asObservable/okhttp3.Call#/Pointing
 $dokka.location:eu.kanade.tachiyomi.network//asObservableSuccess/okhttp3.Call#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/as-observable-success.html
 $dokka.location:eu.kanade.tachiyomi.network//await/okhttp3.Call#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/await.html
 $dokka.location:eu.kanade.tachiyomi.network//awaitSuccess/okhttp3.Call#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/await-success.html
-$dokka.location:eu.kanade.tachiyomi.network//commonEmptyHeaders/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/common-empty-headers.html
 $dokka.location:eu.kanade.tachiyomi.network/HttpException///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/-http-exception/index.html
 $dokka.location:eu.kanade.tachiyomi.network/HttpException/HttpException/#kotlin.Int/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/-http-exception/-http-exception.html
 $dokka.location:eu.kanade.tachiyomi.network/HttpException/code/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.network/-http-exception/code.html
