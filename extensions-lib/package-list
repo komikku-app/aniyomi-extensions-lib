@@ -158,6 +158,8 @@ $dokka.location:eu.kanade.tachiyomi.animesource.model/Video/subtitleTracks/#/Poi
 $dokka.location:eu.kanade.tachiyomi.animesource.model/Video/url/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.model/-video/url.html
 $dokka.location:eu.kanade.tachiyomi.animesource.model/Video/videoUrl/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.model/-video/video-url.html
 $dokka.location:eu.kanade.tachiyomi.animesource.online////PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.online/index.html
+$dokka.location:eu.kanade.tachiyomi.animesource.online/AnimeHttpSource.Companion///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.online/-anime-http-source/-companion/index.html
+$dokka.location:eu.kanade.tachiyomi.animesource.online/AnimeHttpSource.Companion/EMPTY/okhttp3.Headers#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.online/-anime-http-source/-companion/-e-m-p-t-y.html
 $dokka.location:eu.kanade.tachiyomi.animesource.online/AnimeHttpSource///PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.online/-anime-http-source/index.html
 $dokka.location:eu.kanade.tachiyomi.animesource.online/AnimeHttpSource/AnimeHttpSource/#/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.online/-anime-http-source/-anime-http-source.html
 $dokka.location:eu.kanade.tachiyomi.animesource.online/AnimeHttpSource/animeDetailsParse/#okhttp3.Response/PointingToDeclaration/extensions-lib/eu.kanade.tachiyomi.animesource.online/-anime-http-source/anime-details-parse.html
