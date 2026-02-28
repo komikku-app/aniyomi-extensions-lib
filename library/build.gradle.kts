@@ -1,5 +1,6 @@
 import dev.adamko.dokkatoo.dokka.parameters.KotlinPlatform
 import dev.adamko.dokkatoo.dokka.parameters.VisibilityModifier
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.android.library)
@@ -11,6 +12,8 @@ plugins {
 val ver = "14"
 version = ver
 group = "com.github.aniyomiorg"
+
+val javaVersion = JavaVersion.VERSION_17
 
 android {
     compileSdk = 34
@@ -26,14 +29,19 @@ android {
         }
     }
 
-    val javaVersion = JavaVersion.VERSION_1_8
     compileOptions {
         sourceCompatibility = javaVersion
         targetCompatibility = javaVersion
     }
 
-    kotlinOptions {
-        jvmTarget = javaVersion.toString()
+    publishing {
+        singleVariant("release") {}
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget.set(JvmTarget.fromTarget(javaVersion.toString()))
     }
 }
 
