@@ -1,10 +1,10 @@
 import dev.adamko.dokkatoo.dokka.parameters.KotlinPlatform
 import dev.adamko.dokkatoo.dokka.parameters.VisibilityModifier
+import java.net.URI
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
     alias(libs.plugins.android.library)
-    alias(libs.plugins.kotlin.android)
     `maven-publish`
     alias(libs.plugins.dokkatoo)
 }
@@ -35,7 +35,7 @@ android {
     }
 
     publishing {
-        singleVariant("release") {}
+        singleVariant("release")
     }
 }
 
@@ -61,7 +61,8 @@ dokkatoo {
     moduleName.set("extensions-lib")
     moduleVersion.set(ver)
     dokkatooPublicationDirectory.set(layout.buildDirectory.dir("docs"))
-    dokkatooSourceSets.main {
+
+    dokkatooSourceSets.configureEach {
         includes.from("Module.md")
 
         // Temporary workaround for https://github.com/Kotlin/dokka/issues/2876.
@@ -76,42 +77,42 @@ dokkatoo {
 
         externalDocumentationLinks {
             create("okhttp5") {
-                url("https://square.github.io/okhttp/5.x/")
+                url.set(URI("https://square.github.io/okhttp/5.x/"))
             }
 
             create("jsoup") {
-                url("https://jsoup.org/apidocs/")
-                packageListUrl("https://jsoup.org/apidocs/element-list")
+                url.set(URI("https://jsoup.org/apidocs/"))
+                packageListUrl.set(URI("https://jsoup.org/apidocs/element-list"))
             }
 
             create("rxjava") {
-                url("https://reactivex.io/RxJava/1.x/javadoc/")
+                url.set(URI("https://reactivex.io/RxJava/1.x/javadoc/"))
             }
         }
 
         val packageRoot = projectDir.resolve("src/main/java/eu/kanade/tachiyomi/")
         sourceLink {
             localDirectory.set(packageRoot.resolve("util/JsonExtensions.kt"))
-            remoteUrl("https://github.com/aniyomiorg/extensions-lib/tree/main/library/src/main/java/eu/kanade/tachiyomi/util/JsonExtensions.kt")
+            remoteUrl.set(URI("https://github.com/aniyomiorg/extensions-lib/tree/main/library/src/main/java/eu/kanade/tachiyomi/util/JsonExtensions.kt"))
             remoteLineSuffix.set("#L")
         }
 
         sourceLink {
             localDirectory.set(packageRoot.resolve("util/CoroutinesExtensions.kt"))
-            remoteUrl("https://github.com/aniyomiorg/extensions-lib/tree/main/library/src/main/java/eu/kanade/tachiyomi/util/CoroutinesExtensions.kt")
+            remoteUrl.set(URI("https://github.com/aniyomiorg/extensions-lib/tree/main/library/src/main/java/eu/kanade/tachiyomi/util/CoroutinesExtensions.kt"))
             remoteLineSuffix.set("#L")
         }
 
         sourceLink {
             localDirectory.set(packageRoot.resolve("animesource/"))
-            remoteUrl("https://github.com/aniyomiorg/aniyomi/tree/master/source-api/src/commonMain/kotlin/eu/kanade/tachiyomi/animesource/")
+            remoteUrl.set(URI("https://github.com/aniyomiorg/aniyomi/tree/master/source-api/src/commonMain/kotlin/eu/kanade/tachiyomi/animesource/"))
             // The line number is wrong, so we're not going to highlight it.
             remoteLineSuffix.set("#")
         }
 
         sourceLink {
             localDirectory.set(packageRoot.resolve("network/"))
-            remoteUrl("https://github.com/aniyomiorg/aniyomi/tree/master/core/src/main/java/eu/kanade/tachiyomi/network/")
+            remoteUrl.set(URI("https://github.com/aniyomiorg/aniyomi/tree/master/core/src/main/java/eu/kanade/tachiyomi/network/"))
             remoteLineSuffix.set("#") // Same as before.
         }
     }

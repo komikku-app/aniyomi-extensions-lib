@@ -1,7 +1,6 @@
 [versions]
-agp_version = "8.9.3"
+agp_version = "9.0.1"
 coroutines_version = "1.10.2"
-kotlin_version = "2.3.10"
 okhttp_version = "5.3.2"
 serialization_version = "1.10.0"
 dokkatoo_version = "2.4.0"
@@ -22,4 +21,3 @@ unifile = "com.github.tachiyomiorg:unifile:e0def6b3dc"
 [plugins]
 android-library = { id = "com.android.library", version.ref = "agp_version" }
 dokkatoo = { id = "dev.adamko.dokkatoo", version.ref = "dokkatoo_version" }
-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin_version" }
