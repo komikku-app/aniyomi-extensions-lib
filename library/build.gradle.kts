@@ -52,9 +52,6 @@ dependencies {
     compileOnly(libs.rxandroid)
     compileOnly(libs.unifile)
     compileOnly(libs.injekt.core)
-    compileOnly(libs.coroutines)
-    compileOnly(libs.kotlin.json)
-    compileOnly(libs.kotlin.json.okio)
 }
 
 dokkatoo {
@@ -92,27 +89,15 @@ dokkatoo {
 
         val packageRoot = projectDir.resolve("src/main/java/eu/kanade/tachiyomi/")
         sourceLink {
-            localDirectory.set(packageRoot.resolve("util/JsonExtensions.kt"))
-            remoteUrl.set(URI("https://github.com/aniyomiorg/extensions-lib/tree/main/library/src/main/java/eu/kanade/tachiyomi/util/JsonExtensions.kt"))
-            remoteLineSuffix.set("#L")
-        }
-
-        sourceLink {
-            localDirectory.set(packageRoot.resolve("util/CoroutinesExtensions.kt"))
-            remoteUrl.set(URI("https://github.com/aniyomiorg/extensions-lib/tree/main/library/src/main/java/eu/kanade/tachiyomi/util/CoroutinesExtensions.kt"))
-            remoteLineSuffix.set("#L")
-        }
-
-        sourceLink {
             localDirectory.set(packageRoot.resolve("animesource/"))
-            remoteUrl.set(URI("https://github.com/aniyomiorg/aniyomi/tree/master/source-api/src/commonMain/kotlin/eu/kanade/tachiyomi/animesource/"))
+            remoteUrl.set(URI("https://github.com/komikku-app/anikku/tree/master/source-api/src/commonMain/kotlin/eu/kanade/tachiyomi/animesource/"))
             // The line number is wrong, so we're not going to highlight it.
             remoteLineSuffix.set("#")
         }
 
         sourceLink {
             localDirectory.set(packageRoot.resolve("network/"))
-            remoteUrl.set(URI("https://github.com/aniyomiorg/aniyomi/tree/master/core/src/main/java/eu/kanade/tachiyomi/network/"))
+            remoteUrl.set(URI("https://github.com/komikku-app/anikku/tree/master/core/src/main/java/eu/kanade/tachiyomi/network/"))
             remoteLineSuffix.set("#") // Same as before.
         }
     }
