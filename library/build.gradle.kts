@@ -103,6 +103,19 @@ dokkatoo {
     }
 }
 
+// Create JAR with sources
+tasks.register<Jar>("sourcesJar") {
+    archiveClassifier.set("sources")
+    from(android.sourceSets["main"].java.srcDirs)
+}
+
+// Create JAR with Javadoc/Dokka documentation
+tasks.register<Jar>("dokkaJar") {
+    archiveClassifier.set("javadoc")
+    dependsOn(tasks.dokkatooGeneratePublicationHtml)
+    from(tasks.dokkatooGeneratePublicationHtml.flatMap { it.outputDirectory })
+}
+
 publishing {
     publications {
         create<MavenPublication>("maven") {
@@ -111,6 +124,10 @@ publishing {
             afterEvaluate {
                 from(components["release"])
             }
+
+            // Attach sources and documentation
+            artifact(tasks["sourcesJar"])
+            artifact(tasks["dokkaJar"])
         }
     }
 }
