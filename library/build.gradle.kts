@@ -9,14 +9,14 @@ plugins {
     alias(libs.plugins.dokkatoo)
 }
 
-val ver = "14"
+val ver = "16-rc1"
 version = ver
 group = "com.github.aniyomiorg"
 
 val javaVersion = JavaVersion.VERSION_17
 
 android {
-    compileSdk = 34
+    compileSdk = 36
     namespace = "eu.kanade.tachiyomi.animeextensions"
 
     defaultConfig {
@@ -48,10 +48,8 @@ kotlin {
 dependencies {
     compileOnly(libs.okhttp)
     compileOnly(libs.jsoup)
-    compileOnly(libs.rxjava)
-    compileOnly(libs.rxandroid)
-    compileOnly(libs.unifile)
     compileOnly(libs.injekt.core)
+    compileOnly(libs.unifile)
 }
 
 dokkatoo {
@@ -80,10 +78,6 @@ dokkatoo {
             create("jsoup") {
                 url.set(URI("https://jsoup.org/apidocs/"))
                 packageListUrl.set(URI("https://jsoup.org/apidocs/element-list"))
-            }
-
-            create("rxjava") {
-                url.set(URI("https://reactivex.io/RxJava/1.x/javadoc/"))
             }
         }
 

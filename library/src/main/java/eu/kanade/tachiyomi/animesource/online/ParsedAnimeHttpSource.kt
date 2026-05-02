@@ -12,6 +12,10 @@ import org.jsoup.nodes.Element
  * A simple implementation for sources from a website using Jsoup, an HTML parser.
  */
 @Suppress("unused", "unused_parameter")
+@Deprecated(
+    message = "In most cases sources only require a subset of the methods from this class. " +
+            "Source developers should make their own implementation according to their needs."
+)
 abstract class ParsedAnimeHttpSource : AnimeHttpSource() {
 
     /**
@@ -114,6 +118,7 @@ abstract class ParsedAnimeHttpSource : AnimeHttpSource() {
     protected abstract fun animeDetailsParse(document: Document): SAnime
 
     // KMK -->
+
     /**
      * Parses the response from the site and returns a list of related animes.
      * Normally it's not needed to override this method.
@@ -161,36 +166,4 @@ abstract class ParsedAnimeHttpSource : AnimeHttpSource() {
      * @param element an element obtained from [episodeListSelector].
      */
     protected abstract fun episodeFromElement(element: Element): SEpisode
-
-    /**
-     * Parses the response from the site and returns a list of videos.
-     *
-     * @param response the response from the site.
-     */
-    override fun videoListParse(response: Response): List<Video> {
-        throw Exception("Stub!")
-    }
-
-    /**
-     * Returns the Jsoup selector that returns a list of [Element] corresponding to each video.
-     */
-    protected abstract fun videoListSelector(): String
-
-    /**
-     * Returns a video from the given element.
-     *
-     * @param element an element obtained from [videoListSelector].
-     */
-    protected abstract fun videoFromElement(element: Element): Video
-
-    override fun videoUrlParse(response: Response): String {
-        throw Exception("Stub!")
-    }
-
-    /**
-     * Returns the absolute url to the video url from the document.
-     *
-     * @param document the parsed document.
-     */
-    protected abstract fun videoUrlParse(document: Document): String
 }
