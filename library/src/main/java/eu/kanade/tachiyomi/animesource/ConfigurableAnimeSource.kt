@@ -3,7 +3,7 @@ package eu.kanade.tachiyomi.animesource
 import androidx.preference.PreferenceScreen
 
 /**
- * A interface to add user preferences to the source.
+ * An interface to add user preferences to the source.
  */
 interface ConfigurableAnimeSource {
     /**

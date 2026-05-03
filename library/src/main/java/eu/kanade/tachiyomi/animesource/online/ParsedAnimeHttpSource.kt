@@ -3,7 +3,6 @@ package eu.kanade.tachiyomi.animesource.online
 import eu.kanade.tachiyomi.animesource.model.AnimesPage
 import eu.kanade.tachiyomi.animesource.model.SAnime
 import eu.kanade.tachiyomi.animesource.model.SEpisode
-import eu.kanade.tachiyomi.animesource.model.Video
 import okhttp3.Response
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
@@ -32,7 +31,7 @@ abstract class ParsedAnimeHttpSource : AnimeHttpSource() {
     protected abstract fun popularAnimeSelector(): String
 
     /**
-     * Returns a anime from the given [element]. Most sites only show the title and the url, it's
+     * Returns an anime from the given [element]. Most sites only show the title and the url, it's
      * totally fine to fill only those two values.
      *
      * @param element an element obtained from [popularAnimeSelector].
@@ -60,7 +59,7 @@ abstract class ParsedAnimeHttpSource : AnimeHttpSource() {
     protected abstract fun searchAnimeSelector(): String
 
     /**
-     * Returns a anime from the given [element]. Most sites only show the title and the url, it's
+     * Returns an anime from the given [element]. Most sites only show the title and the url, it's
      * totally fine to fill only those two values.
      *
      * @param element an element obtained from [searchAnimeSelector].
@@ -88,7 +87,7 @@ abstract class ParsedAnimeHttpSource : AnimeHttpSource() {
     protected abstract fun latestUpdatesSelector(): String
 
     /**
-     * Returns a anime from the given [element]. Most sites only show the title and the url, it's
+     * Returns an anime from the given [element]. Most sites only show the title and the url, it's
      * totally fine to fill only those two values.
      *
      * @param element an element obtained from [latestUpdatesSelector].
@@ -102,7 +101,7 @@ abstract class ParsedAnimeHttpSource : AnimeHttpSource() {
     protected abstract fun latestUpdatesNextPageSelector(): String?
 
     /**
-     * Parses the response from the site and returns the details of a anime.
+     * Parses the response from the site and returns the details of an anime.
      *
      * @param response the response from the site.
      */
@@ -138,7 +137,7 @@ abstract class ParsedAnimeHttpSource : AnimeHttpSource() {
     protected open fun relatedAnimeListSelector(): String = throw Exception("Stub!")
 
     /**
-     * Returns a anime from the given element.
+     * Returns an anime from the given element.
      *
      * @since anikku/extensions-lib 15
      * @param element an element obtained from [relatedAnimeListSelector].
@@ -161,7 +160,7 @@ abstract class ParsedAnimeHttpSource : AnimeHttpSource() {
     protected abstract fun episodeListSelector(): String
 
     /**
-     * Returns a episode from the given element.
+     * Returns an episode from the given element.
      *
      * @param element an element obtained from [episodeListSelector].
      */

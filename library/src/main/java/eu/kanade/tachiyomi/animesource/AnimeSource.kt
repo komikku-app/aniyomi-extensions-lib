@@ -11,7 +11,7 @@ import eu.kanade.tachiyomi.animesource.model.SAnime
 interface AnimeSource {
 
     /**
-     * Id for the source. Must be unique.
+     * ID for the source. Must be unique.
      */
     val id: Long
 
@@ -59,7 +59,7 @@ interface AnimeSource {
     // KMK -->
 
     /**
-     * Get all the available related animes for a anime.
+     * Get all the available related animes for an anime.
      *
      * @since anikku/extensions-lib 15
      * @param anime the current anime to get related animes.

@@ -1,7 +1,7 @@
 package eu.kanade.tachiyomi
 
 /**
- * Info about the installed aniyomi app (NOT THE EXTENSION!).
+ * Info about the installed Aniyomi app (NOT THE EXTENSION!).
  * Can be useful for temporary fixes, preferences, header values, logging, etc.
  */
 object AppInfo {

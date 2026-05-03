@@ -77,7 +77,7 @@ interface AnimeCatalogueSource : AnimeSource {
     val disableRelatedAnimes: Boolean get() = false
 
     /**
-     * Get all the available related animes for a anime.
+     * Get all the available related animes for an anime.
      * Normally it's not needed to override this method.
      *
      * @since anikku/extensions-lib 15
@@ -107,7 +107,7 @@ interface AnimeCatalogueSource : AnimeSource {
     }
 
     /**
-     * Fetch related animes for a anime from source/site.
+     * Fetch related animes for an anime from source/site.
      *
      * @since anikku/extensions-lib 15
      * @param anime the current anime to get related animes.
@@ -128,7 +128,7 @@ interface AnimeCatalogueSource : AnimeSource {
     }
 
     /**
-     * Get related animes by searching for each keywords from anime's title.
+     * Get related animes by searching for each keyword from anime's title.
      *
      * @return a list of <keyword, related animes>
      * @since anikku/extensions-lib 15

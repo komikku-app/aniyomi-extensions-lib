@@ -1,5 +1,7 @@
 package eu.kanade.tachiyomi.animesource.model
 
+import eu.kanade.tachiyomi.animesource.AnimeSource
+
 interface SAnime {
 
     var url: String
@@ -31,7 +33,7 @@ interface SAnime {
     var update_strategy: AnimeUpdateStrategy
 
     /**
-     * Tells the app if it should call [fetchAnimeDetails].
+     * Tells the app if it should call [AnimeSource.getAnimeDetails].
      */
     var initialized: Boolean
 
