@@ -3,6 +3,7 @@ package eu.kanade.tachiyomi.animesource.online
 import eu.kanade.tachiyomi.animesource.model.AnimesPage
 import eu.kanade.tachiyomi.animesource.model.SAnime
 import eu.kanade.tachiyomi.animesource.model.SEpisode
+import eu.kanade.tachiyomi.animesource.model.Video
 import okhttp3.Response
 import org.jsoup.nodes.Document
 import org.jsoup.nodes.Element
@@ -165,4 +166,32 @@ abstract class ParsedAnimeHttpSource : AnimeHttpSource() {
      * @param element an element obtained from [episodeListSelector].
      */
     protected abstract fun episodeFromElement(element: Element): SEpisode
+
+    /**
+     * Returns the Jsoup selector that returns a list of [Element] corresponding to each video.
+     */
+    // TODO: Remove this when all extensions are migrated to extensions-lib v15.
+    protected open fun videoListSelector(): String {
+        throw Exception("Stub!")
+    }
+
+    /**
+     * Returns a video from the given element.
+     *
+     * @param element an element obtained from [videoListSelector].
+     */
+    // TODO: Remove this when all extensions are migrated to extensions-lib v15.
+    protected open fun videoFromElement(element: Element): Video {
+        throw Exception("Stub!")
+    }
+
+    /**
+     * Returns the absolute url to the video url from the document.
+     *
+     * @param document the parsed document.
+     */
+    // TODO: Remove this when all extensions are migrated to extensions-lib v15.
+    protected open fun videoUrlParse(document: Document): String {
+        throw Exception("Stub!")
+    }
 }

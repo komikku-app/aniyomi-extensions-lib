@@ -283,7 +283,10 @@ abstract class AnimeHttpSource : AnimeCatalogueSource {
      * @param response the response from the site.
      * @return the list of hosters.
      */
-    protected abstract fun hosterListParse(response: Response): List<Hoster>
+    // TODO: Make this into abstract once all extensions already migrated to extensions-lib v15.
+    protected open fun hosterListParse(response: Response): List<Hoster> {
+        throw Exception("Stub!")
+    }
 
     /**
      * Get the list of videos for a hoster.
@@ -293,6 +296,19 @@ abstract class AnimeHttpSource : AnimeCatalogueSource {
      * @return the videos for the hoster.
      */
     override suspend fun getVideoList(hoster: Hoster): List<Video> {
+        throw Exception("Stub!")
+    }
+
+    /**
+     * Get the list of videos for an episode. Videos should be returned
+     * in the expected order; the index is ignored.
+     *
+     * @param episode the episode.
+     * @return the videos for the episode.
+     */
+    // TODO: Remove this when all extensions are migrated to extensions-lib v15.
+    @Deprecated("Migrate to using hoster instead.", replaceWith = ReplaceWith("getVideoList(hoster)"))
+    protected open suspend fun getVideoList(episode: SEpisode): List<Video> {
         throw Exception("Stub!")
     }
 
@@ -309,6 +325,18 @@ abstract class AnimeHttpSource : AnimeCatalogueSource {
     }
 
     /**
+     * Returns the request for getting the video list. Override only if it's needed to override
+     * the url, send different headers or request method like POST.
+     *
+     * @param episode the episode to look for videos.
+     */
+    // TODO: Remove this when all extensions are migrated to extensions-lib v15.
+    @Deprecated("Migrate to using hoster instead.", replaceWith = ReplaceWith("videoListRequest(hoster)"))
+    protected open fun videoListRequest(episode: SEpisode): Request {
+        throw Exception("Stub!")
+    }
+
+    /**
      * Parses the response from the hoster and returns a list of videos.
      *
      * @since extensions-lib 16
@@ -317,6 +345,17 @@ abstract class AnimeHttpSource : AnimeCatalogueSource {
      * @return the list of videos.
      */
     protected open fun videoListParse(response: Response, hoster: Hoster): List<Video> {
+        throw Exception("Stub!")
+    }
+
+    /**
+     * Parses the response from the site and returns a list of videos.
+     *
+     * @param response the response from the site.
+     */
+    // TODO: Remove this when all extensions are migrated to extensions-lib v15.
+    @Deprecated("Migrate to using hoster instead.", replaceWith = ReplaceWith("videoListParse(response, hoster)"))
+    protected open fun videoListParse(response: Response): List<Video> {
         throw Exception("Stub!")
     }
 
@@ -371,6 +410,15 @@ abstract class AnimeHttpSource : AnimeCatalogueSource {
      * ```
      */
     protected open fun List<Video>.sortVideos(): List<Video> {
+        throw Exception("Stub!")
+    }
+
+    /**
+     * Sorts the video list.
+     */
+    // TODO: Remove this when all extensions are migrated to extensions-lib v15.
+    @Deprecated("Use .sortVideos() instead", replaceWith = ReplaceWith("sortVideos()"))
+    protected open fun List<Video>.sort(): List<Video> {
         throw Exception("Stub!")
     }
 
