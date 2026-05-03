@@ -49,7 +49,7 @@ data class TimeStamp(
  * @param internalData Internal data used by resolveVideo.
  */
 @Suppress("unused_parameter")
-class Video(
+data class Video(
     val videoUrl: String = "",
     val videoTitle: String = "",
     val resolution: Int? = null,
