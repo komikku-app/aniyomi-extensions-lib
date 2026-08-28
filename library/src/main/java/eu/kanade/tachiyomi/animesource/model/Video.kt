@@ -68,7 +68,7 @@ data class Video(
 ) {
     @Deprecated(
         message = "Use the new Video constructor",
-        level = DeprecationLevel.ERROR,
+        level = DeprecationLevel.WARNING,
         replaceWith = ReplaceWith(
             expression = "Video(videoTitle = quality, videoUrl = videoUrl, headers = headers, subtitleTracks = subtitleTracks, audioTracks = audioTracks)",
         )
