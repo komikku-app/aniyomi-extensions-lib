@@ -2,7 +2,7 @@ The extensions library used in Aniyomi.
 
 ```
 ext {
-    libVersion = '14'
+    libVersion = 'v16'
 }
 
 dependencies {

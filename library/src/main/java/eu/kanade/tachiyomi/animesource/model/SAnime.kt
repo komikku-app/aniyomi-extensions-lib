@@ -26,11 +26,17 @@ interface SAnime {
 
     var thumbnail_url: String?
 
+    var background_url: String?
+
     /**
      * Useful to exclude animes/movies that will always only have the same episode list
      * from the global updates.
      */
     var update_strategy: AnimeUpdateStrategy
+
+    var fetch_type: FetchType
+
+    var season_number: Double
 
     /**
      * Tells the app if it should call [AnimeSource.getAnimeDetails].

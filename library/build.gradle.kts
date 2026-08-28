@@ -9,7 +9,7 @@ plugins {
     alias(libs.plugins.dokkatoo)
 }
 
-val ver = "16-rc1"
+val ver = "16-rc4"
 version = ver
 group = "com.github.aniyomiorg"
 
