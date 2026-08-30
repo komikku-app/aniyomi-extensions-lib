@@ -66,6 +66,18 @@ data class Video(
     val internalData: String = "",
     val initialized: Boolean = false,
 ) {
+    // TODO(1.6): Remove after ext lib bump
+    @Deprecated("Use videoTitle instead", ReplaceWith("videoTitle"))
+    val quality: String
+        get() = videoTitle
+
+    // TODO(1.6): Remove after ext lib bump
+    val url: String
+        get() = videoPageUrl
+
+    // TODO(1.6): Remove after ext lib bump
+    private var videoPageUrl: String = ""
+
     @Deprecated(
         message = "Use the new Video constructor",
         level = DeprecationLevel.WARNING,
@@ -86,7 +98,9 @@ data class Video(
         headers = headers,
         subtitleTracks = subtitleTracks,
         audioTracks = audioTracks,
-    )
+    ) {
+        this.videoPageUrl = url
+    }
 
     // TODO(1.6): Remove after ext lib bump
     constructor(
@@ -120,5 +134,7 @@ data class Video(
         ffmpegVideoArgs = ffmpegVideoArgs,
         internalData = internalData,
         initialized = initialized,
-    )
+    ) {
+        this.videoPageUrl = videoPageUrl
+    }
 }
