@@ -7,6 +7,14 @@ class Hoster(
     val internalData: String = "",
     val lazy: Boolean = false,
 ) {
+    // TODO(1.6): Remove after ext lib bump
+    constructor(
+        hosterUrl: String = "",
+        hosterName: String = "",
+        videoList: List<Video>? = null,
+        internalData: String = "",
+    ) : this(hosterUrl, hosterName, videoList, internalData, false)
+
     companion object {
         const val NO_HOSTER_LIST = "no_hoster_list"
 
