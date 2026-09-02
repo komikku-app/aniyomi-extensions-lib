@@ -87,4 +87,38 @@ data class Video(
         subtitleTracks = subtitleTracks,
         audioTracks = audioTracks,
     )
+
+    // TODO(1.6): Remove after ext lib bump
+    constructor(
+        videoUrl: String = "",
+        videoTitle: String = "",
+        resolution: Int? = null,
+        bitrate: Int? = null,
+        headers: Headers? = null,
+        preferred: Boolean = false,
+        subtitleTracks: List<Track> = emptyList(),
+        audioTracks: List<Track> = emptyList(),
+        timestamps: List<TimeStamp> = emptyList(),
+        mpvArgs: List<Pair<String, String>> = emptyList(),
+        ffmpegStreamArgs: List<Pair<String, String>> = emptyList(),
+        ffmpegVideoArgs: List<Pair<String, String>> = emptyList(),
+        internalData: String = "",
+        initialized: Boolean = false,
+        videoPageUrl: String,
+    ) : this(
+        videoUrl = videoUrl,
+        videoTitle = videoTitle,
+        resolution = resolution,
+        bitrate = bitrate,
+        headers = headers,
+        preferred = preferred,
+        subtitleTracks = subtitleTracks,
+        audioTracks = audioTracks,
+        timestamps = timestamps,
+        mpvArgs = mpvArgs,
+        ffmpegStreamArgs = ffmpegStreamArgs,
+        ffmpegVideoArgs = ffmpegVideoArgs,
+        internalData = internalData,
+        initialized = initialized,
+    )
 }
